@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'tailwindcss';
+
+@font-face {
+    font-family: 'Newsreader';
+    src: url('/fonts/Newsreader.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dmsans';
+    src: url('/fonts/Dmsans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dosis';
+    src: url('/fonts/Dosis.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('/fonts/Oswald.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Birthstone';
+    src: url('/fonts/Birthstone.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-birthstone {
+    font-family: 'Birthstone', sans-serif;
+}
+
+.font-newsreader {
+    font-family: 'Newsreader', sans-serif;
+}
+
+.font-dmsans {
+    font-family: 'Dmsans', sans-serif;
+}
+
+.font-dosis {
+    font-family: 'Dosis', sans-serif;
+}
+
+.font-oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.bg-pearl {
+    background-color: #FCFCF7;
+}
+
+.bg-lavender {
+    background-color: #f4f1f8;
+}
+
+.bg-marble {
+    background-color: #f2f8fc;
+}
